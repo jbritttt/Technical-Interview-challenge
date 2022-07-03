@@ -36,18 +36,14 @@ header {
 /* my name inside h1 tag*/
 header h1 {
   text-align: center;
-
   font-size: 18px;
   margin-left: 5%;
   padding-left: 20px;
   padding-right: 20px;
   color: #3c2157;
   background-color: #ffbb36;
-
   line-height: 50px;
-
   border-radius: 10px;
-
   font-weight: bold;
   font-family: cursive;
   letter-spacing: -0.03em;
@@ -79,7 +75,6 @@ nav {
 
 nav .menu {
   display: block;
-
   list-style-type: none;
   width: 100%;
   background-color: #3c2157;
@@ -94,9 +89,7 @@ nav .menu {
 
 nav .menu li {
   width: 60%;
-
   margin: 20px auto;
-
   border-radius: 5px;
   background-color: #ffbb36;
 }
@@ -119,7 +112,6 @@ nav .menu li a {
   width: 100%;
   margin: auto;
   padding-bottom: 40px;
-
   padding-top: 40px;
   row-gap: 20px;
   gap: 50px;
@@ -132,7 +124,6 @@ nav .menu li a {
 .career_item {
   background-color: #3c2157;
   width: 90%;
-
   margin: auto;
   border-radius: 10px;
   padding-bottom: 40px;
@@ -145,7 +136,6 @@ nav .menu li a {
   background-repeat: no-repeat;
   background-size: 130%;
   background-position: center;
-
   margin-top: 40px;
   transition: 0.5s ease;
 }
@@ -157,7 +147,6 @@ nav .menu li a {
 .career_section h2 {
   font-size: 40px;
   font-family: cursive;
-
   color: #ffbb36;
   padding-left: 20px;
   padding-right: 20px;
@@ -170,7 +159,6 @@ nav .menu li a {
   color: #fff;
   font-weight: 400;
   line-height: 30px;
-
   font-family: arial;
   letter-spacing: 0.1em;
   width: 80%;
@@ -196,11 +184,9 @@ nav .menu li a {
   width: 100px;
   text-align: center;
   padding: 0;
-
   margin: auto;
   position: sticky;
   top: 111px;
-
   color: #3c2157;
   background-color: #ffbb36;
   font-size: 18px;
@@ -222,9 +208,7 @@ nav .menu li a {
   width: 100%;
   background-image: linear-gradient(to right, #d0e54d, #b6a2ff);
   margin: auto;
-
   padding-top: 80px;
-
   row-gap: 20px;
   gap: 50px;
   text-align: center;
