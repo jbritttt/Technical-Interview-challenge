@@ -10,11 +10,9 @@ body {
 /* makes header scroll*/
 header {
   width: 90%;
-
   margin: auto;
   height: 75px;
   background-color: red;
-
   margin-top: 45px;
   margin-bottom: 45px;
   position: sticky;
@@ -25,7 +23,6 @@ header {
 /* header wrapper. drop down nav is outside this wrapper but maintains flow of header when scrolling*/
 .top-header-wrapper {
   display: flex;
-
   margin: auto;
   justify-content: space-between;
   align-items: center;
@@ -69,7 +66,6 @@ header h1 {
 nav {
   display: flex;
   justify-content: flex-end;
-
   overflow: hidden;
 }
 
@@ -115,9 +111,7 @@ nav .menu li a {
   padding-top: 40px;
   row-gap: 20px;
   gap: 50px;
-
   text-align: center;
-
   background-color: #d0e54d;
 }
 
