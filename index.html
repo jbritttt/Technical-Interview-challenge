@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="top-header-wrapper">
+        <h1 class="my-name">Jonathan Britton</h1>
+
+        <div class="hamburger" onclick="openMenu()">
+          <div class="bar-1"></div>
+          <div class="bar-1 bar-2"></div>
+        </div>
+      </div>
+
+      <nav>
+        <ul class="menu">
+          <li><a href="#about-me">About me</a></li>
+          <li><a href="#truth-lie">Truth or Lie</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="career_items_wrapper" id="about-me">
+        <section class="career_section">
+          <div class="career_item">
+            <svg
+              class="svg_clipped"
+              viewBox="0 0 320 320"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M320 0H0V320H320V0ZM44.7852 56L76.7852 24H243.077L275.077 56V181.763C275.077 245.357 223.524 296.909 159.931 296.909C96.3377 296.909 44.7852 245.357 44.7852 181.763V56Z"
+                fill="#3C2157"
+              />
+            </svg>
+
+            <h2>About Me</h2>
+            <p>
+              My name is Jonathan Britton my previous working background is mainly in
+              construction. I have many hobbies some of them include Guitar,
+              Snooker, Darts, Pool, Gym, Golf and ex cricket player. I'm a
+              terrible golfer but I do enjoy the driving range, and I have a
+              habbit of using the putter as a driver.
+            </p>
+          </div>
+
+          <div class="career_item">
+            <svg
+              class="svg_clipped_1"
+              viewBox="0 0 320 320"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M320 0H0V320H320V0ZM73.0582 96.8341L37.0251 95.8369L22.7969 139.627L52.5343 160L22.7969 180.373L37.0251 224.163L73.0582 223.166L60.975 257.127L98.225 284.191L126.79 262.205L136.977 296.782H183.02L193.207 262.205L221.772 284.191L259.022 257.127L246.939 223.166L282.972 224.163L297.2 180.373L267.463 160L297.2 139.627L282.972 95.8369L246.939 96.8341L259.022 62.8727L221.772 35.809L193.207 57.7954L183.02 23.2178H136.977L126.79 57.7954L98.225 35.809L60.975 62.8727L73.0582 96.8341Z"
+                fill="#3C2157"
+              />
+            </svg>
+            <h2 class="h2_pink">New Career</h2>
+            <p>
+                I've always been interested in technology, from software to the latest gadget. My curiosity got the better of me so, during 2020 I decided to learn how the web works and how websites are actually built. I began learning HTML and CSS and currently JavaScript. My plan is to now turn this new hobby into a career.
+
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <div class="categories_section_wrapper" id="truth-lie">
+        <div id="score">
+          Score:
+          <div id="count">0 / 4</div>
+        </div>
+        <section class="categories_section">
+          <div class="categories_behind">
+            <div class="categories_front techniques_front">
+              <h2>Truth or Lie ?</h2>
+
+              <p>I am the greatest programmer of all time</p>
+              <div class="button-wrapper">
+                <button onclick="rightOrWrongFunc()" class="categories_btn">
+                  Truth
+                </button>
+
+                <button onclick="rightOrWrongFunc(1)" class="categories_btn">
+                  Lie
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="categories_behind">
+            <div class="categories_front talent_front">
+              <h2>Truth or Lie ?</h2>
+
+              <p>I can play guitar whilst blind folded.</p>
+              <div class="button-wrapper">
+                <button onclick="rightOrWrongFunc(1)" class="categories_btn">
+                  Truth
+                </button>
+                <button onclick="rightOrWrongFunc()" class="categories_btn">
+                  Lie
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="categories_behind">
+            <div class="categories_front diverse_teams_front">
+              <h2>Truth or Lie ?</h2>
+
+              <p>I can write a function in JavaScript whilst blind folded</p>
+
+              <div class="button-wrapper">
+                <button onclick="rightOrWrongFunc()" class="categories_btn">
+                  Truth
+                </button>
+                <button onclick="rightOrWrongFunc(1)" class="categories_btn">
+                  Lie
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="categories_behind">
+            <div class="categories_front support_front">
+              <h2>Truth or Lie ?</h2>
+
+              <p>My favourite color is blue</p>
+              <div class="button-wrapper">
+                <button onclick="rightOrWrongFunc(1)" class="categories_btn">
+                  Truth
+                </button>
+                <button onclick="rightOrWrongFunc()" class="categories_btn">
+                  Lie
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div id="contact"></div>
+      </div>
+
+      <div class="correct-modal"><span>CORRECT !</span></div>
+      <div class="wrong-modal"><span>WRONG !</span></div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <form action="action_page.php">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">UK</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 200px"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
